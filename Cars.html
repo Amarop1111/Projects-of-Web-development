@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car's Collection</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: linear-gradient(135deg,deeppink,blue)no-repeat;
+            height: 100vh;
+        }
+        h1{
+            text-align: center;
+            font-size: 72px;
+            padding-top: 50px;
+            font-family: 'poppins',sans-serif;
+            color: white;
+        }
+        .cars{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 77vh;
+        }
+        .cars img{
+            width: 230px;
+            height: 300px;
+            border-radius: 20px;
+            transition: 0.5s ;
+            margin: 0 40px;
+        }
+        .cars img:hover{
+            box-shadow: 0 0 20px white;
+            transform: translateY(-20px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>CARS</h1>
+        <div class="cars">
+            <img
+                src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/listicle/hero_image/2020-Bugatti%20Centodieci-1001x565-%282%29.jpg">
+            <img src="https://cdn.ceoworld.biz/wp-content/uploads/2019/06/La-Voiture-Noire-BUGATTI.jpg">
+            <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2021/04/20151849/lamborghini-sian-e1618920393423.jpg">
+            <img src="https://cdn.luxe.digital/media/20230103132831/most-expensive-cars-2023-bugatti-divo-luxe-digital-780x520.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
